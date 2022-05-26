@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    font-family: 'Times New Roman', serif;
+    height: 100%;
+}
+
+header {
+    border-bottom: 1px solid rgb(102, 98, 98);
+    background: orangered;
+    text-align: center;
+}
+
+#titulo {
+    padding-top: 10px;
+    width: 100%;
+}
+
+#navegacao {
+    padding: 5px 0px 20px 0px;
+    margin-top: 0;
+}
+
+#navegacao a {
+    font-size: 1.5em;
+}
+
+.container1,
+.container2 {
+    position: relative;
+    height: 900px;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container1 {
+    background-image: url(../imagens/imagem1.jpg);
+}
+
+.container2 {
+    background-image: url(../imagens/imagem2.jpg);
+}
+
+.conteudo-frase {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+#informacoes {
+    background-color: orangered;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+#contatos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: orangered;
+    text-align: justify;
+    padding: 50px 80px;
+}
+
+.conteudo-frase span.frase {
+    color: whitesmoke;
+    background-color: black;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    color: gainsboro;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link,
+a:visited {
+    color: whitesmoke;
+}
+
+#navegacao a:link,
+#navegacao a:visited {
+    color: whitesmoke;
+    padding: 8px 12px;
+}
+
+#navegacao a:hover {
+    color: orangered;
+    background: whitesmoke;
+    text-decoration: none;
+}
+
+#titulo h1 {
+    border-bottom: 3px solid white;
+}
+
+.preto {
+    padding-left: 140px;
+    padding-bottom: -5px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.cinza {
+    color: darkgrey;
+    font-size: 3em;
+}
+
+.butao-git {
+    margin: 10px;
+    flex: content;
+    background-color: orangered;
+    border: 1px solid coral;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition: 1s;
+}
+
+.butao-git:hover {
+    flex: content;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
